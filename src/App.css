@@ -1,5 +1,7 @@
 .App {
+  
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +37,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.switch1:first-child{
+  background-color: green;
+}
+.switch2 :last-child{
+  background-color: red;
 }
