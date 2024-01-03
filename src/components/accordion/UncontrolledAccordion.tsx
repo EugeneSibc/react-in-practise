@@ -11,10 +11,6 @@ type AccordionTitlePropsType = {
 export function UncontrolledAccordion(props: AccordionPropsType) {
   const [collapsed, setCollapsed] = useState(true)
 
-  const accordionStyle = {
-
-  }
-
   return (
     <>      
         <AccordionTitle title={props.titleValue} onClick={() => { setCollapsed(!collapsed) }}/>      
